@@ -1,3 +1,5 @@
 # constellation
-graphic renderer
-C++ graphic renderer using OpenGL
+it is a C++ graphic renderer using OpenGL
+
+
+
