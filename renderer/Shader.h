@@ -2,6 +2,8 @@
 #include "functions/Debug.h" 
 #include <string>
 #include <unordered_map>
+#include <fstream>
+#include <sstream>
 
 struct ShaderProgramSource
 {
