@@ -93,7 +93,7 @@ int main( void )
         shader.Bind();
 
         Texture texture("res/textures/phone.png");
-        texture.Bind();
+        texture.Bind(0);
         shader.SetUniform1i("u_Texture", 0);
 
         Renderer renderer;

@@ -1,0 +1,2 @@
+g++ -o ./test/bin/test.bin ./examples/Application.cc -I renderer/functions -I ./ThirdParty -I renderer -lglfw -lGLEW -lGL -lm -lXrandr -lXi -lX11 -lXxf86vm -lpthread -ldl -lXinerama -lXcursor
+./test/bin/test.bin

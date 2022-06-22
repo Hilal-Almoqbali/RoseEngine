@@ -3,7 +3,7 @@
 #include "Renderer.h"
 #include "functions/Debug.h" 
 
-#include "ThirdParty/stb/stb_image.h"
+#include "stb/stb_image.h"
 
 class Texture
 {
