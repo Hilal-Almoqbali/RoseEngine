@@ -1,0 +1,1 @@
+COI or Constellation Opject Input is the renderer's input file.

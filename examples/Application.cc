@@ -89,10 +89,10 @@ int main( void )
 
         va.AddBuffer(vb, layout);
 
-        Shader shader("res/shaders/Basic.shader");
+        Shader shader("test/res/shaders/Basic.shader");
         shader.Bind();
 
-        Texture texture("res/textures/phone.png");
+        Texture texture("test/res/cupe/cf001_diffuse.png");
         texture.Bind(0);
         shader.SetUniform1i("u_Texture", 0);
 
