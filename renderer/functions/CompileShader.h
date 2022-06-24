@@ -64,7 +64,7 @@ static unsigned int Link(unsigned int vertexShader,unsigned int fragmentShader)
     return shaderProgram;
 }
 
-static struct ShadderSource read(const std::string& filePath)
+static ShadderSource read(const std::string& filePath)
 {
     enum class ShaderType
     {
