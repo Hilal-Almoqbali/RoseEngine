@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/sandbox.dir/PlayGround/sandbox.cc.o -o sandbox  -Wl,-rpath,"/home/hilal/GitHub Projects/Fish-Engine/build" libFishEngine.so 
