@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 3.25.1)
+
+project(Fish)
+
+set(INCLUDE_FILES
+./Engine;
+./3rdParty
+)
+set(SRC_FILES
+./*.cc
+
+)
+
+message(STATUS "files that ready to compile are ${SRC_FILES}")
+message(STATUS "include the folowing files ${INCLUDE_FILES}")
+
+add_subdirectory(${CMAKE_SOURCE_DIR}/Engine)
+
+target_include_directories(${PROJECT_NAME} ${INCLUDE_FILES})
+target_link_libraries(Engine)
+add_executable(${PROJECT_NAME} ${SRC_FILES})
+
