@@ -1,9 +1,9 @@
 #include<logging.h>
 
-    std::shared_ptr<spdlog::logger> log::s_CoreLogs;
-    std::shared_ptr<spdlog::logger> log::s_ClientLogs;
+    std::shared_ptr<spdlog::logger> fish::log::s_CoreLogs;
+    std::shared_ptr<spdlog::logger> fish::log::s_ClientLogs;
 
-void log::init()
+void fish::log::init()
 {
     spdlog::set_pattern("%^[%T.%e] [%l] [%n]:%$ %v");
     s_CoreLogs = spdlog::stdout_color_mt("Core");

@@ -8,6 +8,7 @@
 #define FULL_SCREEN 2
 #define OPENGL_WINDOW_API 0
 #define VULKAN_WINDOW_API 1
+namespace fish{
 struct window_data
     {
         std::string window_name;
@@ -15,6 +16,8 @@ struct window_data
         unsigned int window_mode = WINDOWED_WINDOW;
         bool Graphics_API = OPENGL_WINDOW_API;
         bool VSync_mode = 1;
+        bool maximized = 0;
+        bool CenterCursor = 0;
     };
 class window_sys
 {
@@ -27,6 +30,8 @@ class window_sys
         glfwSwapBuffers(m_window);
         glfwPollEvents();
     }
+    void HideCursor(bool cursor_status){cursor_status?glfwSetInputMode(m_window, GLFW_CURSOR, GLFW_CURSOR_DISABLED):glfwSetInputMode(m_window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);}
     private:
     GLFWwindow* m_window;
 };
+}

@@ -1,5 +1,6 @@
 #include<window-sys.h>
 #include<iostream>
+namespace fish{
 window_sys::window_sys(window_data data)
 {
     glfwInit();
@@ -9,6 +10,8 @@ window_sys::window_sys(window_data data)
     }
     else
     {
+        glfwWindowHint(GLFW_CENTER_CURSOR, data.CenterCursor);
+        glfwWindowHint(GLFW_MAXIMIZED, data.maximized);
         glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
         glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
         glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
@@ -46,4 +49,5 @@ window_sys::window_sys(window_data data)
                 glViewport(0, 0, width, hight);
             });
     }
+}
 }
