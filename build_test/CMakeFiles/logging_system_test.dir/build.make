@@ -92,7 +92,7 @@ logging_system_test_EXTERNAL_OBJECTS =
 
 logging_system_test: CMakeFiles/logging_system_test.dir/test/logging_system/logging_system_test.cpp.o
 logging_system_test: CMakeFiles/logging_system_test.dir/build.make
-logging_system_test: src/debug_sys/logging_sys/liblogging_system.a
+logging_system_test: src/Engine/debug_sys/logging_sys/liblogging_system.a
 logging_system_test: 3rdParty/spdlog/libspdlog.a
 logging_system_test: CMakeFiles/logging_system_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/hilal/Development/GameEngineDevelopment/FishEngine/build_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable logging_system_test"

@@ -24,8 +24,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.27.7/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.7/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.27.7/CMakeSystem.cmake"
-  "/home/hilal/Development/GameEngineDevelopment/FishEngine/src/debug_sys/logging_sys/CMakeLists.txt"
-  "/home/hilal/Development/GameEngineDevelopment/FishEngine/src/graphics/window-sys/CMakeLists.txt"
+  "/home/hilal/Development/GameEngineDevelopment/FishEngine/src/Engine/debug_sys/logging_sys/CMakeLists.txt"
+  "/home/hilal/Development/GameEngineDevelopment/FishEngine/src/Engine/graphics/window-sys/CMakeLists.txt"
   "/usr/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCXXInformation.cmake"
@@ -86,8 +86,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "3rdParty/tinygltf/CMakeFiles/CMakeDirectoryInformation.cmake"
   "3rdParty/imgui/CMakeFiles/CMakeDirectoryInformation.cmake"
   "3rdParty/spdlog/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/graphics/window-sys/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/debug_sys/logging_sys/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Engine/graphics/window-sys/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Engine/debug_sys/logging_sys/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -102,6 +102,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "3rdParty/tinygltf/CMakeFiles/tinygltf.dir/DependInfo.cmake"
   "3rdParty/imgui/CMakeFiles/imgui.dir/DependInfo.cmake"
   "3rdParty/spdlog/CMakeFiles/spdlog.dir/DependInfo.cmake"
-  "src/graphics/window-sys/CMakeFiles/window_sys.dir/DependInfo.cmake"
-  "src/debug_sys/logging_sys/CMakeFiles/logging_system.dir/DependInfo.cmake"
+  "src/Engine/graphics/window-sys/CMakeFiles/window_sys.dir/DependInfo.cmake"
+  "src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/DependInfo.cmake"
   )

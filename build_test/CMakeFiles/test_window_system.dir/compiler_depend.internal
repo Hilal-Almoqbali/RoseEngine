@@ -6,7 +6,7 @@ CMakeFiles/test_window_system.dir/test/window_system/test_window.cpp.o
  /home/hilal/Development/GameEngineDevelopment/FishEngine/3rdParty/glad/include/KHR/khrplatform.h
  /home/hilal/Development/GameEngineDevelopment/FishEngine/3rdParty/glad/include/glad/glad.h
  /home/hilal/Development/GameEngineDevelopment/FishEngine/3rdParty/glfw/include/GLFW/glfw3.h
- /home/hilal/Development/GameEngineDevelopment/FishEngine/src/graphics/window-sys/window-sys.h
+ /home/hilal/Development/GameEngineDevelopment/FishEngine/src/Engine/graphics/window-sys/window-sys.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h

@@ -301,7 +301,7 @@ window_sys: cmake_check_build_system
 
 # fast build rule for target.
 window_sys/fast:
-	$(MAKE) $(MAKESILENT) -f src/graphics/window-sys/CMakeFiles/window_sys.dir/build.make src/graphics/window-sys/CMakeFiles/window_sys.dir/build
+	$(MAKE) $(MAKESILENT) -f src/Engine/graphics/window-sys/CMakeFiles/window_sys.dir/build.make src/Engine/graphics/window-sys/CMakeFiles/window_sys.dir/build
 .PHONY : window_sys/fast
 
 #=============================================================================
@@ -314,7 +314,7 @@ logging_system: cmake_check_build_system
 
 # fast build rule for target.
 logging_system/fast:
-	$(MAKE) $(MAKESILENT) -f src/debug_sys/logging_sys/CMakeFiles/logging_system.dir/build.make src/debug_sys/logging_sys/CMakeFiles/logging_system.dir/build
+	$(MAKE) $(MAKESILENT) -f src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/build.make src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/build
 .PHONY : logging_system/fast
 
 test/logging_system/logging_system_test.o: test/logging_system/logging_system_test.cpp.o
