@@ -3,6 +3,7 @@
 #include <string>
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
+#include <>
 #define WINDOWED_WINDOW 0
 #define WINDOWED_FULL_SCREEN_WINDOW 1
 #define FULL_SCREEN 2
@@ -30,6 +31,7 @@ class window_sys
         glfwSwapBuffers(m_window);
         glfwPollEvents();
     }
+    void WindowInputSystem();
     void HideCursor(bool cursor_status){cursor_status?glfwSetInputMode(m_window, GLFW_CURSOR, GLFW_CURSOR_DISABLED):glfwSetInputMode(m_window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);}
     private:
     GLFWwindow* m_window;

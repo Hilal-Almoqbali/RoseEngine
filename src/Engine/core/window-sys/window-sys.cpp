@@ -50,4 +50,8 @@ window_sys::window_sys(window_data data)
             });
     }
 }
+    void WindowInputSystem()
+    {
+        
+    }
 }
