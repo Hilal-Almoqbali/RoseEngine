@@ -301,7 +301,7 @@ window_sys: cmake_check_build_system
 
 # fast build rule for target.
 window_sys/fast:
-	$(MAKE) $(MAKESILENT) -f src/Engine/graphics/window-sys/CMakeFiles/window_sys.dir/build.make src/Engine/graphics/window-sys/CMakeFiles/window_sys.dir/build
+	$(MAKE) $(MAKESILENT) -f src/Engine/core/window-sys/CMakeFiles/window_sys.dir/build.make src/Engine/core/window-sys/CMakeFiles/window_sys.dir/build
 .PHONY : window_sys/fast
 
 #=============================================================================

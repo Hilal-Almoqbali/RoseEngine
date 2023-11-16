@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.26)
 project(test)
 add_subdirectory(3rdParty)
-add_subdirectory(./src/Engine/graphics/window-sys/)
+add_subdirectory(./src/Engine/core/window-sys/)
 add_subdirectory(./src/Engine/debug_sys/logging_sys/)
 add_executable(test_window_system ./test/window_system/test_window.cpp )
 target_link_libraries(test_window_system PUBLIC window_sys)

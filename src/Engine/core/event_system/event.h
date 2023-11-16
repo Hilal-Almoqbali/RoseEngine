@@ -1,17 +1,10 @@
 #pragma once
-
-#include "Hazel/Debug/Instrumentor.h"
-#include "Hazel/Core/Base.h"
-
+#include <iostream>
 #include <functional>
+#include <GLFW/glfw3.h>
 
-namespace fish {
-
-	// Events in Hazel are currently blocking, meaning when an event occurs it
-	// immediately gets dispatched and must be dealt with right then an there.
-	// For the future, a better strategy might be to buffer events in an event
-	// bus and process them during the "event" part of the update stage.
-
+namespace fish
+{
 	enum class EventType
 	{
 		None = 0,
@@ -30,58 +23,35 @@ namespace fish {
 		EventCategoryMouse          = BIT(3),
 		EventCategoryMouseButton    = BIT(4)
 	};
-
-#define EVENT_CLASS_TYPE(type) 	static EventType GetStaticType() { return EventType::type; }\
-														virtual EventType GetEventType() const override { return GetStaticType(); }\
-														virtual const char* GetName() const override { return type; }
-
-#define EVENT_CLASS_CATEGORY(category) virtual int GetCategoryFlags() const override { return category; }
-
-	class Event
-	{
-	public:
-		virtual ~Event() = default;
-
-		bool Handled = false;
-
-		virtual EventType GetEventType() const = 0;
-		virtual const char* GetName() const = 0;
-		virtual int GetCategoryFlags() const = 0;
-		virtual std::string ToString() const { return GetName(); }
-
-		bool IsInCategory(EventCategory category)
-		{
-			return GetCategoryFlags() & category;
-		}
-	};
-
-	class EventDispatcher
-	{
-	public:
-		EventDispatcher(Event& event)
-			: m_Event(event)
-		{
-		}
-		
-		// F will be deduced by the compiler
-		template<typename T, typename F>
-		bool Dispatch(const F& func)
-		{
-			if (m_Event.GetEventType() == T::GetStaticType())
-			{
-				m_Event.Handled |= func(static_cast<T&>(m_Event));
-				return true;
-			}
-			return false;
-		}
-	private:
-		Event& m_Event;
-	};
-
-	inline std::ostream& operator<<(std::ostream& os, const Event& e)
-	{
-		return os << e.ToString();
-	}
-
+	
+    class event//TODO(hilal): finish this
+    {
+        public:
+        event(GLFWwindow window);
+        ~event();
+        //keyboard
+        bool are_key_is(unsigned int in_key_code, unsigned int in_key_action, unsigned int in_other_key_action = false);
+        //mouse
+        glm::vec2 get_mouse_pos();//TODO(hilal): impliment glm
+        bool are_mouse_button_is(unsigned int in_button_code, unsigned int in_button_mode, unsigned int in_other_button_action = false);
+        glm::vec2 get_mouse_scrool_offset();//TODO(hilal): impliment glm
+        //application
+        void close();
+        void resize();
+        private:
+        struct key_events
+        {
+            unsigned int key_code;
+            unsigned int key_action;
+        } key;
+        struct mouse_events
+        {
+            double xpos;
+            double ypos;
+            unsigned int button_code;
+            unsigned int button_action;
+            double xoffset;
+            double yoffset;
+        } mouse;
+    };
 }
-

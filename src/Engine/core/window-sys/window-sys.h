@@ -3,7 +3,7 @@
 #include <string>
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
-#include <>
+//#include <>
 #define WINDOWED_WINDOW 0
 #define WINDOWED_FULL_SCREEN_WINDOW 1
 #define FULL_SCREEN 2
@@ -26,11 +26,12 @@ class window_sys
     window_sys(window_data data);
     ~window_sys(){} //TODO: add delete window here.
     bool window_isnt_closed(void) {return !glfwWindowShouldClose(m_window);}
-    void update_frame_buffer()
+    void update()
     {
         glfwSwapBuffers(m_window);
         glfwPollEvents();
     }
+    GLFWwindow get_window_ptr(){return m_window}
     void WindowInputSystem();
     void HideCursor(bool cursor_status){cursor_status?glfwSetInputMode(m_window, GLFW_CURSOR, GLFW_CURSOR_DISABLED):glfwSetInputMode(m_window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);}
     private:

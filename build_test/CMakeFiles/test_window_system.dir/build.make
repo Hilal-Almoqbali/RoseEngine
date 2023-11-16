@@ -92,7 +92,7 @@ test_window_system_EXTERNAL_OBJECTS =
 
 test_window_system: CMakeFiles/test_window_system.dir/test/window_system/test_window.cpp.o
 test_window_system: CMakeFiles/test_window_system.dir/build.make
-test_window_system: src/Engine/graphics/window-sys/libwindow_sys.a
+test_window_system: src/Engine/core/window-sys/libwindow_sys.a
 test_window_system: 3rdParty/glfw/src/libglfw3.a
 test_window_system: 3rdParty/glad/libglad.a
 test_window_system: /usr/lib64/librt.a
