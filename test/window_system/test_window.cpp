@@ -14,7 +14,7 @@ const char *fragmentShaderSource = "#version 330 core\n"
 
 int main(void)
 {
-    fish::window_data window_info =
+    rose::window_data window_info =
     {
     "window system test",
     600,
@@ -26,7 +26,7 @@ int main(void)
     true
     };
 
-    fish::window_sys window(window_info);
+    rose::window_sys window(window_info);
     //window.HideCursor(true);
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)){std::cout << "Failed to initialize GLAD" << std::endl;} // TODO: when you make the renderer move this line to there.    
 // build and compile our shader program

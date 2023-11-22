@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hilal/Development/GameEngineDevelopment/FishEngine
+CMAKE_SOURCE_DIR = /home/hilal/Development/GameEngineDevelopment/RoseEngine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hilal/Development/GameEngineDevelopment/FishEngine/build_test
+CMAKE_BINARY_DIR = /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hilal/Development/GameEngineDevelopment/FishEngine/build_test/CMakeFiles /home/hilal/Development/GameEngineDevelopment/FishEngine/build_test//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/CMakeFiles /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hilal/Development/GameEngineDevelopment/FishEngine/build_test/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -238,32 +238,6 @@ update_mappings: cmake_check_build_system
 update_mappings/fast:
 	$(MAKE) $(MAKESILENT) -f 3rdParty/glfw/src/CMakeFiles/update_mappings.dir/build.make 3rdParty/glfw/src/CMakeFiles/update_mappings.dir/build
 .PHONY : update_mappings/fast
-
-#=============================================================================
-# Target rules for targets named loader_example
-
-# Build rule for target.
-loader_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 loader_example
-.PHONY : loader_example
-
-# fast build rule for target.
-loader_example/fast:
-	$(MAKE) $(MAKESILENT) -f 3rdParty/tinygltf/CMakeFiles/loader_example.dir/build.make 3rdParty/tinygltf/CMakeFiles/loader_example.dir/build
-.PHONY : loader_example/fast
-
-#=============================================================================
-# Target rules for targets named tinygltf
-
-# Build rule for target.
-tinygltf: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tinygltf
-.PHONY : tinygltf
-
-# fast build rule for target.
-tinygltf/fast:
-	$(MAKE) $(MAKESILENT) -f 3rdParty/tinygltf/CMakeFiles/tinygltf.dir/build.make 3rdParty/tinygltf/CMakeFiles/tinygltf.dir/build
-.PHONY : tinygltf/fast
 
 #=============================================================================
 # Target rules for targets named imgui
@@ -382,12 +356,10 @@ help:
 	@echo "... glad"
 	@echo "... glfw"
 	@echo "... imgui"
-	@echo "... loader_example"
 	@echo "... logging_system"
 	@echo "... logging_system_test"
 	@echo "... spdlog"
 	@echo "... test_window_system"
-	@echo "... tinygltf"
 	@echo "... window_sys"
 	@echo "... test/logging_system/logging_system_test.o"
 	@echo "... test/logging_system/logging_system_test.i"

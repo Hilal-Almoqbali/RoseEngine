@@ -1,0 +1,5 @@
+add_library(RoseCore window-sys.cpp)
+target_include_directories(RoseCore PUBLIC ./)
+target_link_libraries(RoseCore PUBLIC window_sys)
+target_link_libraries(RoseCore PUBLIC event)
+#target_link_libraries(RoseCore PUBLIC glm)

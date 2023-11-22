@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/hilal/Development/GameEngineDevelopment/FishEngine/3rdParty/imgui/. -I/home/hilal/Development/GameEngineDevelopment/FishEngine/3rdParty/imgui/./backends -I/home/hilal/Development/GameEngineDevelopment/FishEngine/3rdParty/glfw/include
+CXX_INCLUDES = -I/home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/imgui/. -I/home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/imgui/./backends -I/home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/glfw/include
 
 CXX_FLAGS = -O3 -DNDEBUG
 

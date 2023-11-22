@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/loader_example.dir/loader_example.cc.o -o loader_example 

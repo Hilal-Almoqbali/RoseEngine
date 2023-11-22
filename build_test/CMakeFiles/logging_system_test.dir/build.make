@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hilal/Development/GameEngineDevelopment/FishEngine
+CMAKE_SOURCE_DIR = /home/hilal/Development/GameEngineDevelopment/RoseEngine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hilal/Development/GameEngineDevelopment/FishEngine/build_test
+CMAKE_BINARY_DIR = /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test
 
 # Include any dependencies generated for this target.
 include CMakeFiles/logging_system_test.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/logging_system_test.dir/progress.make
 include CMakeFiles/logging_system_test.dir/flags.make
 
 CMakeFiles/logging_system_test.dir/test/logging_system/logging_system_test.cpp.o: CMakeFiles/logging_system_test.dir/flags.make
-CMakeFiles/logging_system_test.dir/test/logging_system/logging_system_test.cpp.o: /home/hilal/Development/GameEngineDevelopment/FishEngine/test/logging_system/logging_system_test.cpp
+CMakeFiles/logging_system_test.dir/test/logging_system/logging_system_test.cpp.o: /home/hilal/Development/GameEngineDevelopment/RoseEngine/test/logging_system/logging_system_test.cpp
 CMakeFiles/logging_system_test.dir/test/logging_system/logging_system_test.cpp.o: CMakeFiles/logging_system_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hilal/Development/GameEngineDevelopment/FishEngine/build_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/logging_system_test.dir/test/logging_system/logging_system_test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/logging_system_test.dir/test/logging_system/logging_system_test.cpp.o -MF CMakeFiles/logging_system_test.dir/test/logging_system/logging_system_test.cpp.o.d -o CMakeFiles/logging_system_test.dir/test/logging_system/logging_system_test.cpp.o -c /home/hilal/Development/GameEngineDevelopment/FishEngine/test/logging_system/logging_system_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/logging_system_test.dir/test/logging_system/logging_system_test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/logging_system_test.dir/test/logging_system/logging_system_test.cpp.o -MF CMakeFiles/logging_system_test.dir/test/logging_system/logging_system_test.cpp.o.d -o CMakeFiles/logging_system_test.dir/test/logging_system/logging_system_test.cpp.o -c /home/hilal/Development/GameEngineDevelopment/RoseEngine/test/logging_system/logging_system_test.cpp
 
 CMakeFiles/logging_system_test.dir/test/logging_system/logging_system_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/logging_system_test.dir/test/logging_system/logging_system_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hilal/Development/GameEngineDevelopment/FishEngine/test/logging_system/logging_system_test.cpp > CMakeFiles/logging_system_test.dir/test/logging_system/logging_system_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hilal/Development/GameEngineDevelopment/RoseEngine/test/logging_system/logging_system_test.cpp > CMakeFiles/logging_system_test.dir/test/logging_system/logging_system_test.cpp.i
 
 CMakeFiles/logging_system_test.dir/test/logging_system/logging_system_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/logging_system_test.dir/test/logging_system/logging_system_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hilal/Development/GameEngineDevelopment/FishEngine/test/logging_system/logging_system_test.cpp -o CMakeFiles/logging_system_test.dir/test/logging_system/logging_system_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hilal/Development/GameEngineDevelopment/RoseEngine/test/logging_system/logging_system_test.cpp -o CMakeFiles/logging_system_test.dir/test/logging_system/logging_system_test.cpp.s
 
 # Object files for target logging_system_test
 logging_system_test_OBJECTS = \
@@ -95,7 +95,7 @@ logging_system_test: CMakeFiles/logging_system_test.dir/build.make
 logging_system_test: src/Engine/debug_sys/logging_sys/liblogging_system.a
 logging_system_test: 3rdParty/spdlog/libspdlog.a
 logging_system_test: CMakeFiles/logging_system_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/hilal/Development/GameEngineDevelopment/FishEngine/build_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable logging_system_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable logging_system_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/logging_system_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -107,6 +107,6 @@ CMakeFiles/logging_system_test.dir/clean:
 .PHONY : CMakeFiles/logging_system_test.dir/clean
 
 CMakeFiles/logging_system_test.dir/depend:
-	cd /home/hilal/Development/GameEngineDevelopment/FishEngine/build_test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hilal/Development/GameEngineDevelopment/FishEngine /home/hilal/Development/GameEngineDevelopment/FishEngine /home/hilal/Development/GameEngineDevelopment/FishEngine/build_test /home/hilal/Development/GameEngineDevelopment/FishEngine/build_test /home/hilal/Development/GameEngineDevelopment/FishEngine/build_test/CMakeFiles/logging_system_test.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hilal/Development/GameEngineDevelopment/RoseEngine /home/hilal/Development/GameEngineDevelopment/RoseEngine /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/CMakeFiles/logging_system_test.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/logging_system_test.dir/depend
 

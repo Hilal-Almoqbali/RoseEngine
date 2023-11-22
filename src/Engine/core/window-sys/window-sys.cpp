@@ -1,6 +1,7 @@
 #include<window-sys.h>
 #include<iostream>
-namespace fish{
+namespace rose{
+
 window_sys::window_sys(window_data data)
 {
     glfwInit();
@@ -50,8 +51,4 @@ window_sys::window_sys(window_data data)
             });
     }
 }
-    void WindowInputSystem()
-    {
-        
-    }
 }

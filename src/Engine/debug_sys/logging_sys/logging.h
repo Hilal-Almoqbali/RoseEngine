@@ -2,7 +2,7 @@
 #include <memory>
 #include "spdlog/spdlog.h"
 #include "spdlog/sinks/stdout_color_sinks.h"
-namespace fish{
+namespace rose{
 class log
 {
     public:
@@ -16,12 +16,12 @@ class log
 };
 }
 
-#define CORE_TRACE(...) fish::log::GetCoreLogger()->trace(__VA_ARGS__);
-#define CORE_INFO(...)  fish::log::GetCoreLogger()->info(__VA_ARGS__);
-#define CORE_WARN(...)  fish::log::GetCoreLogger()->warn(__VA_ARGS__);
-#define CORE_ERROR(...) fish::log::GetCoreLogger()->error(__VA_ARGS__);
+#define CORE_TRACE(...) rose::log::GetCoreLogger()->trace(__VA_ARGS__);
+#define CORE_INFO(...)  rose::log::GetCoreLogger()->info(__VA_ARGS__);
+#define CORE_WARN(...)  rose::log::GetCoreLogger()->warn(__VA_ARGS__);
+#define CORE_ERROR(...) rose::log::GetCoreLogger()->error(__VA_ARGS__);
 
-#define CLIENT_TRACE(...) fish::log::GetClientLogger()->trace(__VA_ARGS__);
-#define CLIENT_INFO(...)  fish::log::GetClientLogger()->info(__VA_ARGS__);
-#define CLIENT_WARN(...)  fish::log::GetClientLogger()->warn(__VA_ARGS__);
-#define CLIENT_ERROR(...) fish::log::GetClientLogger()->error(__VA_ARGS__);
+#define CLIENT_TRACE(...) rose::log::GetClientLogger()->trace(__VA_ARGS__);
+#define CLIENT_INFO(...)  rose::log::GetClientLogger()->info(__VA_ARGS__);
+#define CLIENT_WARN(...)  rose::log::GetClientLogger()->warn(__VA_ARGS__);
+#define CLIENT_ERROR(...) rose::log::GetClientLogger()->error(__VA_ARGS__);

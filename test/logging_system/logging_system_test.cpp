@@ -5,7 +5,7 @@ class app
     public:
     void run()
     {
-        fish::log::init();
+        rose::log::init();
         CORE_INFO("somting is happening!");
         CORE_WARN("somting is happening!");
         CORE_ERROR("somting is happening!");

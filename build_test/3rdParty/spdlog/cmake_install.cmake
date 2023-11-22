@@ -1,4 +1,4 @@
-# Install script for directory: /home/hilal/Development/GameEngineDevelopment/FishEngine/3rdParty/spdlog
+# Install script for directory: /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/spdlog
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "/home/hilal/Development/GameEngineDevelopment/FishEngine/build_test/3rdParty/glfw/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"/home/hilal/Development/GameEngineDevelopment/FishEngine/build_test/3rdParty/glfw/install_manifest.txt\"")
+if (NOT EXISTS "/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/3rdParty/glfw/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/3rdParty/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "/home/hilal/Development/GameEngineDevelopment/FishEngine/build_test/3rdParty/glfw/install_manifest.txt" files)
+file(READ "/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/3rdParty/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})
