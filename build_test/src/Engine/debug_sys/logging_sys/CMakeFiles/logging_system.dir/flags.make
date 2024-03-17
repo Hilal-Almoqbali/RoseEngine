@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DSPDLOG_COMPILED_LIB
 
-CXX_INCLUDES = -I/home/hilal/Development/GameEngineDevelopment/RoseEngine/src/Engine/debug_sys/logging_sys/. -I/home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/spdlog/include
+CXX_INCLUDES = -I"/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/src/Engine/debug_sys/logging_sys/." -I"/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/3rdParty/spdlog/include"
 
 CXX_FLAGS = -O3 -DNDEBUG
 

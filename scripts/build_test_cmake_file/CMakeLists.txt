@@ -17,6 +17,6 @@ add_executable(logging_system_test ./test/logging_system/logging_system_test.cpp
 target_link_libraries(logging_system_test PUBLIC logging_system)
 
 #sandbox
-add_subdirectory(./src/Engine/)#build core
-add_subdirectory(./test/sand_box/)#build sand box
+#add_subdirectory(./src/Engine/)#build core
+#add_subdirectory(./test/sand_box/)#build sand box
 

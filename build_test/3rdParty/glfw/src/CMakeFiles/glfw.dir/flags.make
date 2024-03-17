@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
 
-C_INCLUDES = -I/home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/glfw/include -I/home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/glfw/src -I/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/3rdParty/glfw/src
+C_INCLUDES = -I"/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/3rdParty/glfw/include" -I"/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/3rdParty/glfw/src" -I"/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/3rdParty/glfw/src"
 
 C_FLAGS = -O3 -DNDEBUG -std=c99 -fPIC -Wall
 

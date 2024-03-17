@@ -1,4 +1,4 @@
-# Install script for directory: /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/glm/glm
+# Install script for directory: /home/hilal/Development/GameEngineDevelopment/RoseEngine simple/3rdParty/glm/glm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

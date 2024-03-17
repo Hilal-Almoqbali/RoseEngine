@@ -1,4 +1,4 @@
-# Install script for directory: /home/hilal/Development/GameEngineDevelopment/RoseEngine/src/Engine/core/window-sys
+# Install script for directory: /home/hilal/Development/GameEngineDevelopment/RoseEngine simple/src/Engine/core/window-sys
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

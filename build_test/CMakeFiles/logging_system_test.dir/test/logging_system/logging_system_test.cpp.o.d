@@ -1,5 +1,5 @@
 CMakeFiles/logging_system_test.dir/test/logging_system/logging_system_test.cpp.o: \
- /home/hilal/Development/GameEngineDevelopment/RoseEngine/test/logging_system/logging_system_test.cpp \
+ /home/hilal/Development/GameEngineDevelopment/RoseEngine\ simple/test/logging_system/logging_system_test.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/c++/13/x86_64-redhat-linux/bits/c++config.h \
@@ -130,7 +130,7 @@ CMakeFiles/logging_system_test.dir/test/logging_system/logging_system_test.cpp.o
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/hilal/Development/GameEngineDevelopment/RoseEngine/src/Engine/debug_sys/logging_sys/./logging.h \
+ /home/hilal/Development/GameEngineDevelopment/RoseEngine\ simple/src/Engine/debug_sys/logging_sys/./logging.h \
  /usr/include/c++/13/memory /usr/include/c++/13/bits/stl_tempbuf.h \
  /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
@@ -149,12 +149,12 @@ CMakeFiles/logging_system_test.dir/test/logging_system/logging_system_test.cpp.o
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
- /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/spdlog/include/spdlog/spdlog.h \
- /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/spdlog/include/spdlog/common.h \
- /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/spdlog/include/spdlog/details/null_mutex.h \
+ /home/hilal/Development/GameEngineDevelopment/RoseEngine\ simple/3rdParty/spdlog/include/spdlog/spdlog.h \
+ /home/hilal/Development/GameEngineDevelopment/RoseEngine\ simple/3rdParty/spdlog/include/spdlog/common.h \
+ /home/hilal/Development/GameEngineDevelopment/RoseEngine\ simple/3rdParty/spdlog/include/spdlog/details/null_mutex.h \
  /usr/include/c++/13/atomic /usr/include/c++/13/utility \
  /usr/include/c++/13/bits/stl_relops.h \
- /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/spdlog/include/spdlog/tweakme.h \
+ /home/hilal/Development/GameEngineDevelopment/RoseEngine\ simple/3rdParty/spdlog/include/spdlog/tweakme.h \
  /usr/include/c++/13/chrono /usr/include/c++/13/bits/chrono.h \
  /usr/include/c++/13/ratio /usr/include/c++/13/cstdint \
  /usr/include/c++/13/limits /usr/include/c++/13/ctime \
@@ -174,11 +174,11 @@ CMakeFiles/logging_system_test.dir/test/logging_system/logging_system_test.cpp.o
  /usr/include/c++/13/bits/algorithmfwd.h \
  /usr/include/c++/13/bits/stl_heap.h \
  /usr/include/c++/13/bits/uniform_int_dist.h \
- /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/spdlog/include/spdlog/fmt/fmt.h \
- /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/spdlog/include/spdlog/fmt/bundled/core.h \
+ /home/hilal/Development/GameEngineDevelopment/RoseEngine\ simple/3rdParty/spdlog/include/spdlog/fmt/fmt.h \
+ /home/hilal/Development/GameEngineDevelopment/RoseEngine\ simple/3rdParty/spdlog/include/spdlog/fmt/bundled/core.h \
  /usr/include/c++/13/cstring /usr/include/string.h /usr/include/strings.h \
  /usr/include/c++/13/iterator /usr/include/c++/13/bits/stream_iterator.h \
- /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/spdlog/include/spdlog/fmt/bundled/format.h \
+ /home/hilal/Development/GameEngineDevelopment/RoseEngine\ simple/3rdParty/spdlog/include/spdlog/fmt/bundled/format.h \
  /usr/include/c++/13/cmath /usr/include/math.h \
  /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
  /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
@@ -198,24 +198,24 @@ CMakeFiles/logging_system_test.dir/test/logging_system/logging_system_test.cpp.o
  /usr/include/c++/13/tr1/poly_hermite.tcc \
  /usr/include/c++/13/tr1/poly_laguerre.tcc \
  /usr/include/c++/13/tr1/riemann_zeta.tcc \
- /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/spdlog/include/spdlog/fmt/bundled/core.h \
- /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/spdlog/include/spdlog/details/registry.h \
- /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/spdlog/include/spdlog/details/periodic_worker.h \
+ /home/hilal/Development/GameEngineDevelopment/RoseEngine\ simple/3rdParty/spdlog/include/spdlog/fmt/bundled/core.h \
+ /home/hilal/Development/GameEngineDevelopment/RoseEngine\ simple/3rdParty/spdlog/include/spdlog/details/registry.h \
+ /home/hilal/Development/GameEngineDevelopment/RoseEngine\ simple/3rdParty/spdlog/include/spdlog/details/periodic_worker.h \
  /usr/include/c++/13/condition_variable \
  /usr/include/c++/13/bits/std_mutex.h \
  /usr/include/c++/13/bits/unique_lock.h /usr/include/c++/13/mutex \
  /usr/include/c++/13/thread /usr/include/c++/13/bits/std_thread.h \
  /usr/include/c++/13/bits/this_thread_sleep.h \
- /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/spdlog/include/spdlog/details/synchronous_factory.h \
- /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/spdlog/include/spdlog/logger.h \
- /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/spdlog/include/spdlog/details/backtracer.h \
- /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/spdlog/include/spdlog/details/circular_q.h \
+ /home/hilal/Development/GameEngineDevelopment/RoseEngine\ simple/3rdParty/spdlog/include/spdlog/details/synchronous_factory.h \
+ /home/hilal/Development/GameEngineDevelopment/RoseEngine\ simple/3rdParty/spdlog/include/spdlog/logger.h \
+ /home/hilal/Development/GameEngineDevelopment/RoseEngine\ simple/3rdParty/spdlog/include/spdlog/details/backtracer.h \
+ /home/hilal/Development/GameEngineDevelopment/RoseEngine\ simple/3rdParty/spdlog/include/spdlog/details/circular_q.h \
  /usr/include/c++/13/cassert /usr/include/assert.h \
- /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/spdlog/include/spdlog/details/log_msg_buffer.h \
- /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/spdlog/include/spdlog/details/log_msg.h \
- /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/spdlog/include/spdlog/version.h \
- /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/spdlog/include/spdlog/sinks/stdout_color_sinks.h \
- /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/spdlog/include/spdlog/sinks/ansicolor_sink.h \
- /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/spdlog/include/spdlog/details/console_globals.h \
- /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/spdlog/include/spdlog/sinks/sink.h \
- /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/spdlog/include/spdlog/formatter.h
+ /home/hilal/Development/GameEngineDevelopment/RoseEngine\ simple/3rdParty/spdlog/include/spdlog/details/log_msg_buffer.h \
+ /home/hilal/Development/GameEngineDevelopment/RoseEngine\ simple/3rdParty/spdlog/include/spdlog/details/log_msg.h \
+ /home/hilal/Development/GameEngineDevelopment/RoseEngine\ simple/3rdParty/spdlog/include/spdlog/version.h \
+ /home/hilal/Development/GameEngineDevelopment/RoseEngine\ simple/3rdParty/spdlog/include/spdlog/sinks/stdout_color_sinks.h \
+ /home/hilal/Development/GameEngineDevelopment/RoseEngine\ simple/3rdParty/spdlog/include/spdlog/sinks/ansicolor_sink.h \
+ /home/hilal/Development/GameEngineDevelopment/RoseEngine\ simple/3rdParty/spdlog/include/spdlog/details/console_globals.h \
+ /home/hilal/Development/GameEngineDevelopment/RoseEngine\ simple/3rdParty/spdlog/include/spdlog/sinks/sink.h \
+ /home/hilal/Development/GameEngineDevelopment/RoseEngine\ simple/3rdParty/spdlog/include/spdlog/formatter.h

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/hilal/Development/GameEngineDevelopment/RoseEngine/src/Engine/core/window-sys/. -I/home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/glfw/include -I/home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/glad/./include -I/home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/glm
+CXX_INCLUDES = -I"/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/src/Engine/core/window-sys/." -I"/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/3rdParty/glfw/include" -I"/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/3rdParty/glad/./include" -I"/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/3rdParty/glm"
 
 CXX_FLAGS = -O3 -DNDEBUG
 

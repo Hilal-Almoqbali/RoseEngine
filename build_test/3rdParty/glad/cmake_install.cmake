@@ -1,4 +1,4 @@
-# Install script for directory: /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/glad
+# Install script for directory: /home/hilal/Development/GameEngineDevelopment/RoseEngine simple/3rdParty/glad
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

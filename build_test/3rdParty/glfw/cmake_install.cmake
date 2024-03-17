@@ -1,4 +1,4 @@
-# Install script for directory: /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/glfw
+# Install script for directory: /home/hilal/Development/GameEngineDevelopment/RoseEngine simple/3rdParty/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,17 +44,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/3rdParty/glfw/src/cmake_install.cmake")
+  include("/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/3rdParty/glfw/src/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/glfw/include/GLFW" FILES_MATCHING REGEX "/glfw3\\.h$" REGEX "/glfw3native\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/3rdParty/glfw/include/GLFW" FILES_MATCHING REGEX "/glfw3\\.h$" REGEX "/glfw3native\\.h$")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/glfw3" TYPE FILE FILES
-    "/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/3rdParty/glfw/src/glfw3Config.cmake"
-    "/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/3rdParty/glfw/src/glfw3ConfigVersion.cmake"
+    "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/3rdParty/glfw/src/glfw3Config.cmake"
+    "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/3rdParty/glfw/src/glfw3ConfigVersion.cmake"
     )
 endif()
 
@@ -62,7 +62,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/cmake/glfw3/glfw3Targets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/cmake/glfw3/glfw3Targets.cmake"
-         "/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/3rdParty/glfw/CMakeFiles/Export/58b37b387a34f8a6c7ff51065ade4e63/glfw3Targets.cmake")
+         "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/3rdParty/glfw/CMakeFiles/Export/58b37b387a34f8a6c7ff51065ade4e63/glfw3Targets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/cmake/glfw3/glfw3Targets-*.cmake")
       if(_cmake_old_config_files)
@@ -75,13 +75,13 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/glfw3" TYPE FILE FILES "/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/3rdParty/glfw/CMakeFiles/Export/58b37b387a34f8a6c7ff51065ade4e63/glfw3Targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/glfw3" TYPE FILE FILES "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/3rdParty/glfw/CMakeFiles/Export/58b37b387a34f8a6c7ff51065ade4e63/glfw3Targets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/glfw3" TYPE FILE FILES "/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/3rdParty/glfw/CMakeFiles/Export/58b37b387a34f8a6c7ff51065ade4e63/glfw3Targets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/glfw3" TYPE FILE FILES "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/3rdParty/glfw/CMakeFiles/Export/58b37b387a34f8a6c7ff51065ade4e63/glfw3Targets-release.cmake")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/pkgconfig" TYPE FILE FILES "/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/3rdParty/glfw/src/glfw3.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/pkgconfig" TYPE FILE FILES "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/3rdParty/glfw/src/glfw3.pc")
 endif()
 

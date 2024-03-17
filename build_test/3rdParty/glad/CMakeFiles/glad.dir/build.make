@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hilal/Development/GameEngineDevelopment/RoseEngine
+CMAKE_SOURCE_DIR = "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test
+CMAKE_BINARY_DIR = "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test"
 
 # Include any dependencies generated for this target.
 include 3rdParty/glad/CMakeFiles/glad.dir/depend.make
@@ -70,18 +70,18 @@ include 3rdParty/glad/CMakeFiles/glad.dir/progress.make
 include 3rdParty/glad/CMakeFiles/glad.dir/flags.make
 
 3rdParty/glad/CMakeFiles/glad.dir/src/glad.c.o: 3rdParty/glad/CMakeFiles/glad.dir/flags.make
-3rdParty/glad/CMakeFiles/glad.dir/src/glad.c.o: /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/glad/src/glad.c
+3rdParty/glad/CMakeFiles/glad.dir/src/glad.c.o: /home/hilal/Development/GameEngineDevelopment/RoseEngine\ simple/3rdParty/glad/src/glad.c
 3rdParty/glad/CMakeFiles/glad.dir/src/glad.c.o: 3rdParty/glad/CMakeFiles/glad.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object 3rdParty/glad/CMakeFiles/glad.dir/src/glad.c.o"
-	cd /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/3rdParty/glad && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT 3rdParty/glad/CMakeFiles/glad.dir/src/glad.c.o -MF CMakeFiles/glad.dir/src/glad.c.o.d -o CMakeFiles/glad.dir/src/glad.c.o -c /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/glad/src/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object 3rdParty/glad/CMakeFiles/glad.dir/src/glad.c.o"
+	cd "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/3rdParty/glad" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT 3rdParty/glad/CMakeFiles/glad.dir/src/glad.c.o -MF CMakeFiles/glad.dir/src/glad.c.o.d -o CMakeFiles/glad.dir/src/glad.c.o -c "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/3rdParty/glad/src/glad.c"
 
 3rdParty/glad/CMakeFiles/glad.dir/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glad.dir/src/glad.c.i"
-	cd /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/3rdParty/glad && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/glad/src/glad.c > CMakeFiles/glad.dir/src/glad.c.i
+	cd "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/3rdParty/glad" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/3rdParty/glad/src/glad.c" > CMakeFiles/glad.dir/src/glad.c.i
 
 3rdParty/glad/CMakeFiles/glad.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glad.dir/src/glad.c.s"
-	cd /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/3rdParty/glad && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/glad/src/glad.c -o CMakeFiles/glad.dir/src/glad.c.s
+	cd "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/3rdParty/glad" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/3rdParty/glad/src/glad.c" -o CMakeFiles/glad.dir/src/glad.c.s
 
 # Object files for target glad
 glad_OBJECTS = \
@@ -93,19 +93,19 @@ glad_EXTERNAL_OBJECTS =
 3rdParty/glad/libglad.a: 3rdParty/glad/CMakeFiles/glad.dir/src/glad.c.o
 3rdParty/glad/libglad.a: 3rdParty/glad/CMakeFiles/glad.dir/build.make
 3rdParty/glad/libglad.a: 3rdParty/glad/CMakeFiles/glad.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libglad.a"
-	cd /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/3rdParty/glad && $(CMAKE_COMMAND) -P CMakeFiles/glad.dir/cmake_clean_target.cmake
-	cd /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/3rdParty/glad && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glad.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libglad.a"
+	cd "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/3rdParty/glad" && $(CMAKE_COMMAND) -P CMakeFiles/glad.dir/cmake_clean_target.cmake
+	cd "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/3rdParty/glad" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glad.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 3rdParty/glad/CMakeFiles/glad.dir/build: 3rdParty/glad/libglad.a
 .PHONY : 3rdParty/glad/CMakeFiles/glad.dir/build
 
 3rdParty/glad/CMakeFiles/glad.dir/clean:
-	cd /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/3rdParty/glad && $(CMAKE_COMMAND) -P CMakeFiles/glad.dir/cmake_clean.cmake
+	cd "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/3rdParty/glad" && $(CMAKE_COMMAND) -P CMakeFiles/glad.dir/cmake_clean.cmake
 .PHONY : 3rdParty/glad/CMakeFiles/glad.dir/clean
 
 3rdParty/glad/CMakeFiles/glad.dir/depend:
-	cd /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hilal/Development/GameEngineDevelopment/RoseEngine /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/glad /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/3rdParty/glad /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/3rdParty/glad/CMakeFiles/glad.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple" "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/3rdParty/glad" "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test" "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/3rdParty/glad" "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/3rdParty/glad/CMakeFiles/glad.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : 3rdParty/glad/CMakeFiles/glad.dir/depend
 

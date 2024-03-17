@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hilal/Development/GameEngineDevelopment/RoseEngine
+CMAKE_SOURCE_DIR = "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test
+CMAKE_BINARY_DIR = "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test"
 
 # Include any dependencies generated for this target.
 include src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/depend.make
@@ -70,18 +70,18 @@ include src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/progress.
 include src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/flags.make
 
 src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/logging.cpp.o: src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/flags.make
-src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/logging.cpp.o: /home/hilal/Development/GameEngineDevelopment/RoseEngine/src/Engine/debug_sys/logging_sys/logging.cpp
+src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/logging.cpp.o: /home/hilal/Development/GameEngineDevelopment/RoseEngine\ simple/src/Engine/debug_sys/logging_sys/logging.cpp
 src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/logging.cpp.o: src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/logging.cpp.o"
-	cd /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/src/Engine/debug_sys/logging_sys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/logging.cpp.o -MF CMakeFiles/logging_system.dir/logging.cpp.o.d -o CMakeFiles/logging_system.dir/logging.cpp.o -c /home/hilal/Development/GameEngineDevelopment/RoseEngine/src/Engine/debug_sys/logging_sys/logging.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/logging.cpp.o"
+	cd "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/src/Engine/debug_sys/logging_sys" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/logging.cpp.o -MF CMakeFiles/logging_system.dir/logging.cpp.o.d -o CMakeFiles/logging_system.dir/logging.cpp.o -c "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/src/Engine/debug_sys/logging_sys/logging.cpp"
 
 src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/logging.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/logging_system.dir/logging.cpp.i"
-	cd /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/src/Engine/debug_sys/logging_sys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hilal/Development/GameEngineDevelopment/RoseEngine/src/Engine/debug_sys/logging_sys/logging.cpp > CMakeFiles/logging_system.dir/logging.cpp.i
+	cd "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/src/Engine/debug_sys/logging_sys" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/src/Engine/debug_sys/logging_sys/logging.cpp" > CMakeFiles/logging_system.dir/logging.cpp.i
 
 src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/logging.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/logging_system.dir/logging.cpp.s"
-	cd /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/src/Engine/debug_sys/logging_sys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hilal/Development/GameEngineDevelopment/RoseEngine/src/Engine/debug_sys/logging_sys/logging.cpp -o CMakeFiles/logging_system.dir/logging.cpp.s
+	cd "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/src/Engine/debug_sys/logging_sys" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/src/Engine/debug_sys/logging_sys/logging.cpp" -o CMakeFiles/logging_system.dir/logging.cpp.s
 
 # Object files for target logging_system
 logging_system_OBJECTS = \
@@ -93,19 +93,19 @@ logging_system_EXTERNAL_OBJECTS =
 src/Engine/debug_sys/logging_sys/liblogging_system.a: src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/logging.cpp.o
 src/Engine/debug_sys/logging_sys/liblogging_system.a: src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/build.make
 src/Engine/debug_sys/logging_sys/liblogging_system.a: src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblogging_system.a"
-	cd /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/src/Engine/debug_sys/logging_sys && $(CMAKE_COMMAND) -P CMakeFiles/logging_system.dir/cmake_clean_target.cmake
-	cd /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/src/Engine/debug_sys/logging_sys && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/logging_system.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblogging_system.a"
+	cd "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/src/Engine/debug_sys/logging_sys" && $(CMAKE_COMMAND) -P CMakeFiles/logging_system.dir/cmake_clean_target.cmake
+	cd "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/src/Engine/debug_sys/logging_sys" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/logging_system.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/build: src/Engine/debug_sys/logging_sys/liblogging_system.a
 .PHONY : src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/build
 
 src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/clean:
-	cd /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/src/Engine/debug_sys/logging_sys && $(CMAKE_COMMAND) -P CMakeFiles/logging_system.dir/cmake_clean.cmake
+	cd "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/src/Engine/debug_sys/logging_sys" && $(CMAKE_COMMAND) -P CMakeFiles/logging_system.dir/cmake_clean.cmake
 .PHONY : src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/clean
 
 src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/depend:
-	cd /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hilal/Development/GameEngineDevelopment/RoseEngine /home/hilal/Development/GameEngineDevelopment/RoseEngine/src/Engine/debug_sys/logging_sys /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/src/Engine/debug_sys/logging_sys /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple" "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/src/Engine/debug_sys/logging_sys" "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test" "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/src/Engine/debug_sys/logging_sys" "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/depend
 

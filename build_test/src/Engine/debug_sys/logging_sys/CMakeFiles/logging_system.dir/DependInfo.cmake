@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/hilal/Development/GameEngineDevelopment/RoseEngine/src/Engine/debug_sys/logging_sys/logging.cpp" "src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/logging.cpp.o" "gcc" "src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/logging.cpp.o.d"
+  "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/src/Engine/debug_sys/logging_sys/logging.cpp" "src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/logging.cpp.o" "gcc" "src/Engine/debug_sys/logging_sys/CMakeFiles/logging_system.dir/logging.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,4 +1,4 @@
-# Install script for directory: /home/hilal/Development/GameEngineDevelopment/RoseEngine/src/Engine/debug_sys/logging_sys
+# Install script for directory: /home/hilal/Development/GameEngineDevelopment/RoseEngine simple/src/Engine/debug_sys/logging_sys
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-# Install script for directory: /home/hilal/Development/GameEngineDevelopment/RoseEngine
+# Install script for directory: /home/hilal/Development/GameEngineDevelopment/RoseEngine simple
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,17 +44,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/3rdParty/cmake_install.cmake")
+  include("/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/3rdParty/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/src/Engine/core/window-sys/cmake_install.cmake")
+  include("/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/src/Engine/core/window-sys/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/src/Engine/debug_sys/logging_sys/cmake_install.cmake")
+  include("/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/src/Engine/debug_sys/logging_sys/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -65,5 +65,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

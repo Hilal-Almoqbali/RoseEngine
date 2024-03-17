@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hilal/Development/GameEngineDevelopment/RoseEngine
+CMAKE_SOURCE_DIR = "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test
+CMAKE_BINARY_DIR = "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test_window_system.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/test_window_system.dir/progress.make
 include CMakeFiles/test_window_system.dir/flags.make
 
 CMakeFiles/test_window_system.dir/test/window_system/test_window.cpp.o: CMakeFiles/test_window_system.dir/flags.make
-CMakeFiles/test_window_system.dir/test/window_system/test_window.cpp.o: /home/hilal/Development/GameEngineDevelopment/RoseEngine/test/window_system/test_window.cpp
+CMakeFiles/test_window_system.dir/test/window_system/test_window.cpp.o: /home/hilal/Development/GameEngineDevelopment/RoseEngine\ simple/test/window_system/test_window.cpp
 CMakeFiles/test_window_system.dir/test/window_system/test_window.cpp.o: CMakeFiles/test_window_system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_window_system.dir/test/window_system/test_window.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_window_system.dir/test/window_system/test_window.cpp.o -MF CMakeFiles/test_window_system.dir/test/window_system/test_window.cpp.o.d -o CMakeFiles/test_window_system.dir/test/window_system/test_window.cpp.o -c /home/hilal/Development/GameEngineDevelopment/RoseEngine/test/window_system/test_window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_window_system.dir/test/window_system/test_window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_window_system.dir/test/window_system/test_window.cpp.o -MF CMakeFiles/test_window_system.dir/test/window_system/test_window.cpp.o.d -o CMakeFiles/test_window_system.dir/test/window_system/test_window.cpp.o -c "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/test/window_system/test_window.cpp"
 
 CMakeFiles/test_window_system.dir/test/window_system/test_window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_window_system.dir/test/window_system/test_window.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hilal/Development/GameEngineDevelopment/RoseEngine/test/window_system/test_window.cpp > CMakeFiles/test_window_system.dir/test/window_system/test_window.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/test/window_system/test_window.cpp" > CMakeFiles/test_window_system.dir/test/window_system/test_window.cpp.i
 
 CMakeFiles/test_window_system.dir/test/window_system/test_window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_window_system.dir/test/window_system/test_window.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hilal/Development/GameEngineDevelopment/RoseEngine/test/window_system/test_window.cpp -o CMakeFiles/test_window_system.dir/test/window_system/test_window.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/test/window_system/test_window.cpp" -o CMakeFiles/test_window_system.dir/test/window_system/test_window.cpp.s
 
 # Object files for target test_window_system
 test_window_system_OBJECTS = \
@@ -98,7 +98,7 @@ test_window_system: 3rdParty/glad/libglad.a
 test_window_system: /usr/lib64/librt.a
 test_window_system: /usr/lib64/libm.so
 test_window_system: CMakeFiles/test_window_system.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test_window_system"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test_window_system"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_window_system.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -110,6 +110,6 @@ CMakeFiles/test_window_system.dir/clean:
 .PHONY : CMakeFiles/test_window_system.dir/clean
 
 CMakeFiles/test_window_system.dir/depend:
-	cd /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hilal/Development/GameEngineDevelopment/RoseEngine /home/hilal/Development/GameEngineDevelopment/RoseEngine /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test /home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/CMakeFiles/test_window_system.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple" "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple" "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test" "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test" "/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/CMakeFiles/test_window_system.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/test_window_system.dir/depend
 

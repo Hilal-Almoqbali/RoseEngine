@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/glad/./include
+C_INCLUDES = -I"/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/3rdParty/glad/./include"
 
 C_FLAGS = -O3 -DNDEBUG
 

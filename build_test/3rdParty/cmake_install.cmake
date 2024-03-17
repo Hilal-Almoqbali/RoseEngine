@@ -1,4 +1,4 @@
-# Install script for directory: /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty
+# Install script for directory: /home/hilal/Development/GameEngineDevelopment/RoseEngine simple/3rdParty
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,26 +44,26 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/3rdParty/glad/cmake_install.cmake")
+  include("/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/3rdParty/glad/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/3rdParty/glfw/cmake_install.cmake")
+  include("/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/3rdParty/glfw/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/3rdParty/glm/cmake_install.cmake")
+  include("/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/3rdParty/glm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/3rdParty/imgui/cmake_install.cmake")
+  include("/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/3rdParty/imgui/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/3rdParty/spdlog/cmake_install.cmake")
+  include("/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/3rdParty/spdlog/cmake_install.cmake")
 endif()
 

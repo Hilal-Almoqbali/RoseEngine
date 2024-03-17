@@ -1,4 +1,4 @@
-# Install script for directory: /home/hilal/Development/GameEngineDevelopment/RoseEngine/3rdParty/glm
+# Install script for directory: /home/hilal/Development/GameEngineDevelopment/RoseEngine simple/3rdParty/glm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/hilal/Development/GameEngineDevelopment/RoseEngine/build_test/3rdParty/glm/glm/cmake_install.cmake")
+  include("/home/hilal/Development/GameEngineDevelopment/RoseEngine simple/build_test/3rdParty/glm/glm/cmake_install.cmake")
 
 endif()
 
