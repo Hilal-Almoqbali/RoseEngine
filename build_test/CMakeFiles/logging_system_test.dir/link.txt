@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/logging_system_test.dir/test/logging_system/logging_system_test.cpp.o -o logging_system_test  src/Engine/debug_sys/logging_sys/liblogging_system.a 3rdParty/spdlog/libspdlog.a 
