@@ -1,2 +1,0 @@
-/usr/bin/ar qc libwindow_sys.a "CMakeFiles/window_sys.dir/window-sys.cpp.o"
-/usr/bin/ranlib libwindow_sys.a
