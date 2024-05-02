@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.26)
 project(test)
+#TODO: do this
+file(COPY ./assets/ DESTINATION ./build_test/)
+
 add_subdirectory(3rdParty)
 add_subdirectory(./src/Engine/core/window-sys/)
 #add_subdirectory(./src/Engine/core/event_system/)
