@@ -1,7 +1,7 @@
 #include<window-sys.h>
 #include<iostream>
-namespace rose{
-
+namespace rose
+{
 window_sys::window_sys(window_data data)
 {
     glfwInit();
@@ -13,8 +13,8 @@ window_sys::window_sys(window_data data)
     {
         glfwWindowHint(GLFW_CENTER_CURSOR, data.CenterCursor);
         glfwWindowHint(GLFW_MAXIMIZED, data.maximized);
-        glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
-        glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
+        glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
+        glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 2);
         glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
     }
     if(data.window_mode == 0)
@@ -46,9 +46,9 @@ window_sys::window_sys(window_data data)
     else
     {
         glfwSetFramebufferSizeCallback(m_window, [](GLFWwindow* window, int width, int hight)
-            {
-                glViewport(0, 0, width, hight);
-            });
+        {
+            glViewport(0, 0, width, hight);
+        });
     }
 }
 }

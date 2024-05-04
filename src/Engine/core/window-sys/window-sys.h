@@ -34,7 +34,12 @@ class window_sys
     }
     GLFWwindow* get_window_ptr(){return m_window;}
     void WindowInputSystem();
-    void HideCursor(bool cursor_status){cursor_status?glfwSetInputMode(m_window, GLFW_CURSOR, GLFW_CURSOR_DISABLED):glfwSetInputMode(m_window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);}
+    void HideCursor(bool cursor_status)
+    {
+        cursor_status?
+        glfwSetInputMode(m_window, GLFW_CURSOR, GLFW_CURSOR_DISABLED)
+        :glfwSetInputMode(m_window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);
+    }
 
     private:
     GLFWwindow* m_window;

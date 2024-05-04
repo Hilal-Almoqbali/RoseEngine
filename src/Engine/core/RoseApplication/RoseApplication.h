@@ -2,6 +2,22 @@
 int main(int argc, char** argv);
 
 namespace rose{
+		struct ApplicationSpecification
+	{
+		std::string Name = "Rose";
+		uint32_t WindowWidth = 1600, WindowHeight = 900;
+		bool WindowDecorated = false;
+		bool Fullscreen = false;
+		bool VSync = true;
+		std::string WorkingDirectory;
+		bool StartMaximized = true;
+		bool Resizable = true;
+		bool EnableImGui = true;
+		ScriptEngineConfig ScriptConfig;
+		RendererConfig RenderConfig;
+		ThreadingPolicy CoreThreadingPolicy = ThreadingPolicy::MultiThreaded;
+		std::filesystem::path IconPath;
+	};
 
 	struct ApplicationCommandLineArgs
 	{
@@ -65,7 +81,6 @@ namespace rose{
 		static Application* s_Instance;
 		friend int ::main(int argc, char** argv);
 	};
-
 	// To be defined in CLIENT
 	Application* CreateApplication(ApplicationCommandLineArgs args);
 

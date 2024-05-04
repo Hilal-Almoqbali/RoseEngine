@@ -22,8 +22,6 @@ namespace rose {
 
 	Application::~Application()
 	{
-		
-
 		ScriptEngine::Shutdown();
 		Renderer::Shutdown();
 	}
