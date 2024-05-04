@@ -6,7 +6,7 @@ namespce rose
     {
 
     }
-    void Renderer::add_seen(int ID,std::string name, Model model)
+    void Renderer::add_seen(std::vector<Opject> seen)
     {
 
     }
