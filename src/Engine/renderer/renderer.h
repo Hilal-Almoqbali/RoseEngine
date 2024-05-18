@@ -7,7 +7,7 @@ namespce rose
         int ID;
         std::string name;
         Model model;
-        bool ignore = 0;
+        bool ignore = false;
     };
     class Renderer
     {
@@ -15,7 +15,6 @@ namespce rose
         Renderer();
         void add_seen(std::vector<Opject> seen);
         void add_opject_to_the_seen(int ID,std::string name, Model model);
-        void draw();
         void rm_opject_by_id(int ID);
         void rm_opject_by_name(std::string name);
         void rm_seen();
@@ -24,6 +23,7 @@ namespce rose
         void add_camera(int ID, glm::vec3 position = glm::vec3(0.0f, 0.0f, 0.0f));
         void make_camera_current(int ID);
         void add_texture_camera(unsigned int *texture,glm::vec3 position = glm::vec3(0.0f, 0.0f, 0.0f));
+        void draw();
         template<typename Fn>
         int command(Fn func);
         ~Renderer()=defult;
